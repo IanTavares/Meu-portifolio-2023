@@ -16,13 +16,13 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["HTML5", "CSS3", "JAVASCRIPT", "PYTHON", "GIT E GITHUB","GIMP..."],
+         strings:["HTML5", "CSS3", "JAVASCRIPT", "PYTHON", "POWER BI", "GIT E GITHUB","ESTUDANDO (PHP E DJANGO)"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:["HTML5", "CSS3", "JAVASCRIPT", "PYTHON", "GIT E GITHUB","GIMP..."],
+        strings:["HTML5", "CSS3", "JAVASCRIPT", "PYTHON", "POWER BI", "GIT E GITHUB","ESTUDANDO (PHP E DJANGO)"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
