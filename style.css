@@ -69,12 +69,15 @@ html{
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
+    background-size:100%;
+    overflow: auto;
+
 }
 .home .max-width{
     margin: auto 0 auto 40px;
 }
 .home .home-content .text-1{
-    font-size: 27px;
+    font-size: 2.7rem;
 }
 .home .home-content .text-2{
     font-size: 75px;
@@ -88,6 +91,7 @@ html{
 .home .home-content .text-3 span{
     color:#086788 ;
     font-weight: 500;
+    text-shadow: #ccc;
 }
 .home .home-content a{
     display: inline-block;
@@ -670,11 +674,29 @@ footer span a:hover{
     }
 
     @media (max-width: 320px){
+        .home{
+            background: url(imagens/imagem\ responsiva.jpg) no-repeat;
+            display: flex;
+            background-size: cover; 
+            height: 100vh;
+            color: #fff;
+            min-height: 580px;
+            background-size:100%;
+            overflow: auto;
+
+        }        
+        .home .home-content .text-1{
+            font-size: 20px;
+            
+        }
         .home .home-content .text-2{
             font-size: 50px;
+            
         }
         .home .home-content .text-3{
-            font-size: 27px;
+            font-size: 20px;
+            font-weight: 500;
+            text-shadow: #111;
         }
         .about .title{
             font-size: 4rem;
@@ -709,5 +731,6 @@ footer span a:hover{
             font-size: 2.2rem;
             padding-bottom: 2.3rem;
         }
+       
     }
 }
